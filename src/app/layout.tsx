@@ -56,6 +56,7 @@ export default async function RootLayout({
       >
         <body className="bg-neutral-900 text-white pt-18 pb-50">
           {/* <NavBar settings={settings} /> */}
+          
           <main className="">{children}</main>
           {/* <Footer /> */}
         </body>
