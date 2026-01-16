@@ -37,6 +37,21 @@
             "allowTargetBlank": true,
             "multi": "paragraph,strong,em"
           }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": true,
+            "variants": [
+              "Primary",
+              "Secondary"
+            ]
+          }
         }
       },
       "items": {}

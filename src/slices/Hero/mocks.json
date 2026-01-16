@@ -47,6 +47,22 @@
 						}
 					}
 				]
+			},
+			"button_link": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "267a0481-2a36-4d4b-af6a-2aaa34aaeba2",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "http://google.com",
+							"text": "prevent",
+							"variant": "Secondary"
+						}
+					}
+				]
 			}
 		},
 		"items": []
