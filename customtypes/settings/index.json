@@ -1,0 +1,29 @@
+{
+  "format": "custom",
+  "id": "settings",
+  "label": "Settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "navigation_link": {
+        "type": "Link",
+        "config": {
+          "label": "Navigation Link",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": true
+        }
+      },
+      "label": {
+        "type": "Text",
+        "config": {
+          "label": "Label",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
