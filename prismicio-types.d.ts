@@ -217,7 +217,11 @@ export type ContactDocument<Lang extends string = string> =
     Lang
   >;
 
-type HomepageDocumentDataSlicesSlice = AboutSlice | HeroSlice;
+type HomepageDocumentDataSlicesSlice =
+  | BlogSlice
+  | ContactSlice
+  | AboutSlice
+  | HeroSlice;
 
 /**
  * Content for homepage documents
