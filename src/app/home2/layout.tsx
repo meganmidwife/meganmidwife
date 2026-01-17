@@ -11,7 +11,7 @@ import { ViewTransitions } from "next-view-transitions";
 // import { Footer } from "@/components/Footer";
 
 import { isFilled } from "@prismicio/client";
-import NavBar from "@/components/Navbar";
+import NavBar from "@/components/Navbar2";
 
 
 

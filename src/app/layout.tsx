@@ -7,7 +7,7 @@ import { repositoryName } from "@/prismicio";
 import { createClient } from "@/prismicio";
 //import { isFilled } from "@prismicio/client";
 import { ViewTransitions } from "next-view-transitions";
-// import { NavBar } from "@/components/Navbar"
+ import { NavBar } from "@/components/Navbar"
 // import { Footer } from "@/components/Footer";
 import "@/globals.css";
 import { isFilled } from "@prismicio/client";
@@ -71,7 +71,7 @@ export default async function RootLayout({
         className={`${raleway.variable} ${gambarino.variable} antialiased`}
       >
         <body className="bg-neutral-900 text-white">
-          {/* <NavBar settings={settings} /> */}
+          <NavBar settings={settings} /> 
           
           <main className="">{children}</main>
           {/* <Footer /> */}
